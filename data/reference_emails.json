@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a job interview",
+    "tone": "formal",
+    "email": "Subject: Thank You – Senior AI Engineer Interview Follow-Up\n\nDear Hiring Team,\n\nThank you for the opportunity to interview for the Senior AI Engineer role on Monday. I truly enjoyed our conversation and was particularly excited to discuss the RAG pipeline project your team is working on.\n\nThe scope of the project aligns closely with my experience, and I believe I can make a meaningful contribution from day one. Please let me know if you require any additional information or references from my end.\n\nI look forward to hearing from you regarding the next steps.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "id": 2,
+    "intent": "Request project deadline extension",
+    "tone": "apologetic",
+    "email": "Subject: Request for Deadline Extension – Project Submission\n\nDear [Manager's Name],\n\nI hope this message finds you well. I am writing to sincerely apologize for the delay in our project timeline and to formally request a 3-day extension beyond the current Friday deadline.\n\nUnfortunately, we encountered an unexpected outage with a third-party API that is critical to the project's core functionality. This was entirely outside our control, but I take full responsibility for not flagging the risk earlier. Our team is actively monitoring the situation and will resume work the moment the API is restored.\n\nI assure you that with 3 additional days, we will deliver a complete and thoroughly tested submission. I deeply regret any inconvenience this may cause and appreciate your understanding.\n\nThank you for your patience.\n\nRespectfully,\n[Your Name]"
+  },
+  {
+    "id": 3,
+    "intent": "Cold outreach to a potential client",
+    "tone": "persuasive",
+    "email": "Subject: Reduce Churn by 30% – A Quick Win for Your EdTech Platform\n\nHi [Name],\n\nI came across your work in the EdTech space and was genuinely impressed by what your team is building. I'm reaching out because I believe we can help you solve one of the most persistent challenges in the industry — user churn.\n\nOur product has helped EdTech companies reduce churn by up to 30%, directly improving retention and lifetime value. These aren't just numbers — they translate to real, measurable growth.\n\nI'd love to show you exactly how it works with a free, no-obligation demo tailored to your platform. It takes only 20 minutes and could be one of the most valuable calls you have this quarter.\n\nWould you be open to a quick chat next week?\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 4,
+    "intent": "Onboarding welcome email to new team member",
+    "tone": "warm and friendly",
+    "email": "Subject: Welcome to the Team! 🎉\n\nHi [Name],\n\nWe are so excited to have you joining us next Monday — the team has been looking forward to it!\n\nHere are a few things to help you hit the ground running:\n\n- Our daily standup happens at 10 AM — it's a quick 15-minute sync and a great way to get to know everyone\n- Slack is our main communication tool, so make sure you're set up before your first day\n- Feel free to reach out to me directly if you have any questions before you start\n\nWe have a great culture here and I know you'll fit right in. Don't hesitate to ask anything — no question is too small.\n\nSee you Monday!\n\nWarmly,\n[Your Name]"
+  },
+  {
+    "id": 5,
+    "intent": "Escalate a bug to engineering team",
+    "tone": "urgent",
+    "email": "Subject: URGENT: Critical Bug Causing Data Loss – Immediate Action Required\n\nHi Engineering Team,\n\nI am escalating a critical issue that requires your immediate attention.\n\nA bug causing data loss has been actively affecting over 200 users. This was first reported 3 days ago and has not yet been resolved. The impact is significant and is growing with every hour of delay.\n\nThis is not a minor issue — data loss directly undermines user trust and could have serious legal and business consequences if left unaddressed.\n\nI am requesting that this be treated as a P0 priority. Please assign a dedicated engineer immediately and provide a status update within the next 2 hours.\n\nI am available to jump on a call right now if that helps accelerate the response.\n\nUrgently,\n[Your Name]"
+  },
+  {
+    "id": 6,
+    "intent": "Thank a mentor after a guidance session",
+    "tone": "grateful and casual",
+    "email": "Subject: Really Grateful for Today's Session\n\nHey [Mentor's Name],\n\nJust wanted to drop a quick note to say thank you for spending an hour with me today — I honestly got a lot out of it.\n\nYour advice on focusing on MLOps really resonated with me. I hadn't thought about it as seriously before, but after our conversation, I can see exactly why it's such a high-leverage skill to develop right now. I've already started bookmarking some resources!\n\nIt means a lot that you take the time to share your experience and genuinely invest in my growth. I don't take it for granted.\n\nHope we can do this again soon. Thanks again!\n\nCheers,\n[Your Name]"
+  },
+  {
+    "id": 7,
+    "intent": "Propose a new internal tool to management",
+    "tone": "professional and persuasive",
+    "email": "Subject: Proposal: Automated Report Generator – Save 5 Hours Per Analyst Weekly\n\nDear [Manager's Name],\n\nI would like to propose the adoption of an internal automated report generation tool that I have developed using Python.\n\nCurrently, our analysts spend a significant amount of time on repetitive report compilation. This tool automates that process end-to-end, saving an estimated 5 hours per analyst per week. Across a team of even 4 analysts, that's 20 hours of recovered productivity every week — time that can be redirected toward higher-value analysis and decision-making.\n\nThe tool is already built, tested, and ready for a pilot deployment. There is no additional cost involved beyond a short onboarding session.\n\nI'd welcome the chance to give you a brief walkthrough at your convenience. I'm confident this will be a net positive for the entire team.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 8,
+    "intent": "Decline a meeting invitation politely",
+    "tone": "polite",
+    "email": "Subject: Re: Meeting Invitation – Conflict on [Date]\n\nHi [Name],\n\nThank you for including me in this meeting. Unfortunately, I have a conflicting deadline on the same day that I'm unable to reschedule, so I won't be able to attend.\n\nI don't want to miss out on the discussion, though — would it be possible to share the meeting notes or a brief summary afterward? I'm happy to review them async and share any input from my end.\n\nI'm also fully available next week if a follow-up discussion would be helpful.\n\nSorry for the inconvenience and thanks for understanding!\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 9,
+    "intent": "Request a recommendation letter",
+    "tone": "humble and formal",
+    "email": "Subject: Request for a Letter of Recommendation – MS Program Application\n\nDear [Name],\n\nI hope you are doing well. I am writing to humbly request your support in the form of a letter of recommendation for my application to an MS program at NIT.\n\nHaving had the privilege of working closely with you over the past two years, I believe you are best placed to speak to my technical abilities, work ethic, and growth as a professional. Your endorsement would carry tremendous weight in my application.\n\nI understand this is a significant ask and I am grateful for any time you can spare. The application deadline is three weeks from now, so there is no immediate urgency, but I wanted to reach out early to give you ample time.\n\nI would be happy to share my resume, statement of purpose, or any other supporting material that might make the process easier for you.\n\nThank you sincerely for considering this request.\n\nWith gratitude,\n[Your Name]"
+  },
+  {
+    "id": 10,
+    "intent": "Inform team about system downtime",
+    "tone": "informative and calm",
+    "email": "Subject: Planned System Downtime – Saturday, 2:00 AM to 4:00 AM IST\n\nHi Team,\n\nThis is a heads-up about a brief planned system downtime scheduled for this Saturday between 2:00 AM and 4:00 AM IST.\n\nThe downtime is required to carry out a scheduled database migration. Our engineering team will be overseeing the process throughout the maintenance window to ensure everything goes smoothly.\n\nNo action is required from your end. All systems are expected to be fully operational by 4:00 AM IST. If you do experience any issues after that window, please reach out and we'll look into it promptly.\n\nApologies in advance for any inconvenience and thank you for your understanding.\n\nBest,\n[Your Name]"
+  }
+]

@@ -1,0 +1,5 @@
+requests
+rouge-score
+nltk
+python-dotenv
+pandas

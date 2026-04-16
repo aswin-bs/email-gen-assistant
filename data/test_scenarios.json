@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a job interview",
+    "facts": ["Interview was on Monday", "Role: Senior AI Engineer", "Discussed RAG pipeline project"],
+    "tone": "formal"
+  },
+  {
+    "id": 2,
+    "intent": "Request project deadline extension",
+    "facts": ["Current deadline: Friday", "Blocker: third-party API down", "Need 3 extra days"],
+    "tone": "apologetic"
+  },
+  {
+    "id": 3,
+    "intent": "Cold outreach to a potential client",
+    "facts": ["Company builds EdTech tools", "Our product reduces churn by 30%", "Offer a free demo"],
+    "tone": "persuasive"
+  },
+  {
+    "id": 4,
+    "intent": "Onboarding welcome email to new team member",
+    "facts": ["Joining date: next Monday", "Team standup at 10 AM", "Slack is the main tool"],
+    "tone": "warm and friendly"
+  },
+  {
+    "id": 5,
+    "intent": "Escalate a bug to engineering team",
+    "facts": ["Bug causes data loss", "Affecting 200+ users", "First reported 3 days ago"],
+    "tone": "urgent"
+  },
+  {
+    "id": 6,
+    "intent": "Thank a mentor after a guidance session",
+    "facts": ["Session was about career growth", "Mentor suggested learning MLOps", "Spent 1 hour"],
+    "tone": "grateful and casual"
+  },
+  {
+    "id": 7,
+    "intent": "Propose a new internal tool to management",
+    "facts": ["Tool: automated report generator", "Saves 5 hours/week per analyst", "Built using Python"],
+    "tone": "professional and persuasive"
+  },
+  {
+    "id": 8,
+    "intent": "Decline a meeting invitation politely",
+    "facts": ["Conflicting deadline on same day", "Offer to share notes async", "Available next week"],
+    "tone": "polite"
+  },
+  {
+    "id": 9,
+    "intent": "Request a recommendation letter",
+    "facts": ["Applying for MS program at NIT", "Worked together for 2 years", "Deadline in 3 weeks"],
+    "tone": "humble and formal"
+  },
+  {
+    "id": 10,
+    "intent": "Inform team about system downtime",
+    "facts": ["Downtime: Saturday 2–4 AM IST", "Reason: database migration", "No action needed from users"],
+    "tone": "informative and calm"
+  }
+]

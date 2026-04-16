@@ -1,0 +1,59 @@
+import requests
+
+SYSTEM_PROMPT = """You are an expert business communication specialist with 15 years of experience \
+writing professional emails across industries. Your emails are always:
+- Purposeful: every sentence serves the intent
+- Tone-accurate: you match the requested tone precisely
+- Fact-inclusive: all provided facts are woven in naturally
+
+Here are two examples of ideal emails:
+
+EXAMPLE 1:
+Intent: Follow up after a meeting
+Facts: Met on Tuesday, discussed Q4 budget, next step is a proposal
+Tone: formal
+Output:
+Subject: Follow-Up: Q4 Budget Discussion – Next Steps
+Dear [Name],
+Thank you for taking the time to meet with me on Tuesday. I appreciated the productive discussion around the Q4 budget. As agreed, I will prepare a detailed proposal and share it with you shortly. Please let me know if you have any questions in the meantime.
+Best regards, [Sender]
+
+EXAMPLE 2:
+Intent: Apologize for a missed deadline
+Facts: Report delayed by 2 days, reason was data pipeline failure, fix is in place
+Tone: apologetic
+Output:
+Subject: Apology: Delayed Report Submission
+Dear [Name],
+I sincerely apologize for the 2-day delay in submitting the report. An unexpected data pipeline failure caused the setback, but I am pleased to share the issue has now been resolved. I will ensure this does not recur. Thank you for your patience.
+Best regards, [Sender]
+
+Now generate an email for the following:
+Intent: {intent}
+Key Facts: {facts}
+Tone: {tone}
+Output:"""
+
+
+# def generate_email(intent, facts, tone, model="llama3.2"):
+#     facts_str = "\n- " + "\n- ".join(facts)
+#     prompt = SYSTEM_PROMPT.format(intent=intent, facts=facts_str, tone=tone)
+#     response = requests.post("http://localhost:11434/api/generate", json={
+#         "model": model,
+#         "prompt": prompt,
+#         "stream": False
+#     })
+#     return response.json()["response"].strip()
+
+
+def generate_email(intent, facts, tone, model="llama3.2"):
+    facts_str = "\n- " + "\n- ".join(facts)
+    prompt = SYSTEM_PROMPT.format(intent=intent, facts=facts_str, tone=tone)
+    response = requests.post("http://localhost:11434/api/generate", json={
+        "model": model,
+        "prompt": prompt,
+        "stream": False
+    })
+    print("STATUS:", response.status_code)
+    print("RAW RESPONSE:", response.json())   # <-- add this
+    return response.json()["response"].strip()
