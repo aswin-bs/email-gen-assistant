@@ -154,4 +154,3 @@ After running `main.py`, the `outputs/` folder will contain:
 
 - The `urllib3` SSL warning on macOS (LibreSSL) is harmless and doesn't affect functionality
 - All inference runs locally via Ollama — no API keys or internet connection required after the models are pulled
-- Reference emails in `data/reference_emails.json` were written manually to serve as ground truth`
